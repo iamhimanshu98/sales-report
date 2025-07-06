@@ -18,7 +18,6 @@ INSERT INTO Sales (ProductCategory, ProductName, SaleAmount) VALUES
 ('Furniture', 'Bed', 900.00);
 
 
-
 SELECT 
     ISNULL(ProductCategory, 'Total') AS ProductCategory,
     ISNULL(ProductName, 
